@@ -227,7 +227,7 @@ Contributions are welcome! Please:
 
 ## 📄 License
 
-MIT License - See LICENSE.md file for details
+MIT License - See [LICENSE](LICENSE.md) file for details
 
 ## 👤 Author
 
