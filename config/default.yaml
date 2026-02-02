@@ -1,0 +1,31 @@
+# ALLRECON Configuration File
+# Default settings for reconnaissance scans
+
+scan:
+  threads: 30
+  timeout: 300
+  parallel_enabled: true
+  max_parallel_jobs: 5
+
+tools:
+  subfinder: ""
+  assetfinder: ""
+  shuffledns: ""
+  nuclei: ""
+  httpx: ""
+  gau: ""
+  waybackurls: ""
+  katana: ""
+  
+wordlists:
+  subdomain_bruteforce: "/usr/share/seclists/Discovery/DNS/deepmagic.com-prefixes-top50000.txt"
+  resolvers: "~/tools/resolvers/resolver.txt"
+
+logging:
+  level: "INFO"
+  file: "logs/allrecon.log"
+  console: true
+  
+output:
+  timestamp_folders: true
+  generate_report: true
