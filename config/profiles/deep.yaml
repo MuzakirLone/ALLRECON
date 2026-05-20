@@ -1,0 +1,15 @@
+# Deep Scan Profile - Comprehensive reconnaissance
+# Use this for thorough, time-intensive scans
+
+scan:
+  timeout: 3600
+  parallel_enabled: true
+  max_parallel_jobs: 10
+  threads: 50
+  
+tools_enabled: all
+
+additional_checks:
+  - cloud_enumeration
+  - port_scanning
+  - screenshot_capture

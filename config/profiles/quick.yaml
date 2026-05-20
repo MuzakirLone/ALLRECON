@@ -1,0 +1,17 @@
+# Quick Scan Profile - Fast essential reconnaissance
+# Use this for quick initial scans
+
+scan:
+  timeout: 60
+  parallel_enabled: true
+  max_parallel_jobs: 10
+  
+tools_enabled:
+  - subfinder
+  - httpx
+  - nuclei
+  
+skip_modules:
+  - js_analysis_deep
+  - url_collection
+  - bruteforce
